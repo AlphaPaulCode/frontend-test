@@ -10,7 +10,7 @@
   "build": "next build",
   "start": "next start",
   "lint": "next lint",
-  "deploy": "npm run build && gh-pages -d .next"
+  "deploy": "npm run build"
 },
   "dependencies": {
     "@emotion/react": "^11.14.0",
