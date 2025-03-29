@@ -8,4 +8,4 @@ const nextConfig = {
     assetPrefix: "/frontend-test/", // Ensure assets load correctly
   };
   
-  module.exports = nextConfig;  
+  export default nextConfig;  
