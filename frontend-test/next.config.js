@@ -1,12 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export', // Enables static site export
+    output: "export", // Enables static export
     images: {
-      unoptimized: true, // Fix image issues in static exports
+      unoptimized: true, // Fixes image issues in static export
     },
-    basePath: "/frontend-test", // Change this to match your GitHub repo name
-    assetPrefix: "/frontend-test/", // Ensure assets load correctly on GitHub Pages
+    basePath: "/frontend-test", // Replace with your GitHub repo name
+    assetPrefix: "/frontend-test/", // Ensure assets load correctly
   };
   
-  module.exports = nextConfig;
-  
+  module.exports = nextConfig;  
